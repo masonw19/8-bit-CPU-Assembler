@@ -7,9 +7,14 @@ This project contains:
 * Simple assembler
 
 ## Screenshots
+
+#### 8-bit CPU circuit
 Shown below is the 8-bit CPU circuit in Logisim-Evolution. Each of the modules in the image have been made with logic gates.
 
 ![8bitcpu showcase](Screenshots/8bitcpu.PNG)
+
+#### Controller Module
+Shown below is what is inside the Controller module from the previous image. In here we have some logic gates as well as another module that is used for instrcution decoding.
 
 ![Controller showcase](Screenshots/Controller.PNG)
 
