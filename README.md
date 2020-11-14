@@ -26,6 +26,7 @@ After loading the program into the 16 byte RAM you can turn off the 'program_mod
 Legend:
 * _D_ is a byte of data
 * _A_ is a register that we have in our CPU
+* _B_ is a register that we have in our CPU
 * _M_ is a memory address. Used to for either the source or destination of a data copy.
 
 #### Data transfer group
@@ -42,18 +43,17 @@ Legend:
 | `SUB M`       | _A_ = _A_ - (byte of data in memory)	|
 
 #### Logical group
-| Instruction   | Description                                                |
-|---------------|------------------------------------------------------------|
-| `LDA M`       | Load the _A_ register with value in memory address _M_     |
-| `STA M`       | Store data in _A_ register to memory address _M_           |
-| `MOVA D`      | Move the data _D_ into _A_ register                        |
+| Instruction   | Description                            |
+|---------------|----------------------------------------|
+| `AND M`       | _A_ = _A_ AND (byte of data in memory) |
+| `OR M`       	| _A_ = _A_ OR (byte of data in memory)  |
+| `INVB`      	| _B_ = _~B_							 |
 
 #### Branching group
-| Instruction   | Description                                                |
-|---------------|------------------------------------------------------------|
-| `LDA M`       | Load the _A_ register with value in memory address _M_     |
-| `STA M`       | Store data in _A_ register to memory address _M_           |
-| `MOVA D`      | Move the data _D_ into _A_ register                        |
+| Instruction   | Description                               |
+|---------------|-------------------------------------------|
+| `JMP D`       | Jump to address _D_     					|
+| `JC D`       	| Jump to address _D_ if carry flag is set  |
 
 #### Machine control
 | Instruction   | Description      |
