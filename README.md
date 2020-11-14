@@ -29,7 +29,38 @@ After loading the program into the 16 byte RAM you can turn off the 'program_mod
 
 Legend:
 * _D_ is a byte of data
+* _A_ is a register that we have in our CPU
 * _M_ is a memory address. Used to for either the source or destination of a data copy.
+
+#### Arithmetic group
+| Instruction   | Description                                                |
+|---------------|------------------------------------------------------------|
+| `LDA M`       | Load the _A_ register with value in memory address _M_     |
+| `STA M`       | Store data in _A_ register to memory address _M_           |
+| `MOVA D`      | Move the data _D_ into _A_ register                        |
+
+#### Logical group
+| Instruction   | Description                                                |
+|---------------|------------------------------------------------------------|
+| `LDA M`       | Load the _A_ register with value in memory address _M_     |
+| `STA M`       | Store data in _A_ register to memory address _M_           |
+| `MOVA D`      | Move the data _D_ into _A_ register                        |
+
+#### Branching group
+| Instruction   | Description                                                |
+|---------------|------------------------------------------------------------|
+| `LDA M`       | Load the _A_ register with value in memory address _M_     |
+| `STA M`       | Store data in _A_ register to memory address _M_           |
+| `MOVA D`      | Move the data _D_ into _A_ register                        |
+
+#### Machine control
+| Instruction   | Description                                                |
+|---------------|------------------------------------------------------------|
+| `LDA M`       | Load the _A_ register with value in memory address _M_     |
+| `STA M`       | Store data in _A_ register to memory address _M_           |
+| `MOVA D`      | Move the data _D_ into _A_ register                        |
 
 ## Screenshots
 ![8bitcpu showcase](Screenshots/8bitcpu.PNG)
+
+## Reflection
