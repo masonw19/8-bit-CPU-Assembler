@@ -61,6 +61,8 @@ Legend:
 | `HLT`       	| Halt the CPU     |
 
 #### I/O Group
+| Instruction   | Description      																			|
+|---------------|-------------------------------------------------------------------------------------------|
 | `INA D`      	| Put the content _D_ on to the databus and input it to register _A_						| 
 | `OUTA`    	| Put the content in register _A_ on to the databus and receive it in the output register   |
 
