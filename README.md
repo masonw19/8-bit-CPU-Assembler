@@ -7,7 +7,11 @@ This project contains:
 * Simple assembler
 
 ## Screenshots
+Shown below is the 8-bit CPU circuit in Logisim-Evolution. Each of the modules in the image have been made with logic gates.
+
 ![8bitcpu showcase](Screenshots/8bitcpu.PNG)
+
+![Controller showcase](Screenshots/Controller.PNG)
 
 ## Installation and Setup Instructions
 Clone this repository. You will need to have Java SE Development Kit installed in order to run Logisim-Evolution. Java SE Development Kit: https://www.oracle.com/java/technologies/javase-jdk13-downloads.html
