@@ -19,4 +19,4 @@ Once retrieving the machine code you can now open the 'CPU_8_bit.circ' file and 
 After loading the program into the 16 byte RAM you can turn off the 'program_mode' and set the 'pclk' to be in a low state. To run the program you can either manual toggle the 'clk' input or go to the 'Simulate' tab in Logisim-Evolution menu bar and check the 'Ticks Enabled' box.
 
 ## Screenshots
-![Circuit showcase](screenshots/8bitcpu.PNG)
+![Circuit showcase](Screenshots/8bitcpu.PNG)
