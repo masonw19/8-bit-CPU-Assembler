@@ -76,3 +76,14 @@ Legend:
 | `OUTA`    	| Put the content in register _A_ on to the databus and receive it in the output register   |
 
 ## Reflection
+
+The project goal for this 8-bit CPU and assembler was to improve my knowledge in hardware design along with how computers work.
+
+I was originally going to use Verilog to design this CPU but I wanted to gain a better understaning of how the logic gates are to work together in a CPU. I first looked into buying electronic components like transistors and integrated circuits so that I would be build the CPU by hand but I thought this may be too time consuming for this project. 
+Due to this I then looked into logic gate simulation softwares and I came across Logisim-Evolution. Though it would have been nice to build the CPU by hand, I did not think that knoweldge I would gain from doing it that way would out weigh the
+way the time and money to build this project compared to using a logic gate simulator.
+
+One main challenge that I faced when working on this project is to figure out the timing of the operations. This is because you have to break down each instruction into several states and it may 
+be difficult to debug if you end up missing a step for an instruction.
+
+By the end of this project, I had greatly improved my knoweldge of logic gates, hardware design, as well as my Python coding skills. 
