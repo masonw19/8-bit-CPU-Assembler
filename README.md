@@ -83,7 +83,7 @@ I was originally going to use Verilog to design this CPU but I wanted to gain a 
 Due to this I then looked into logic gate simulation softwares and I came across Logisim-Evolution. Though it would have been nice to build the CPU by hand, I did not think that knoweldge I would gain from doing it that way would out weigh the
 way the time and money to build this project compared to using a logic gate simulator.
 
-One main challenge that I faced when working on this project is to figure out the timing of the operations. This is because you have to break down each instruction into several states and it may 
-be difficult to debug if you end up missing a step for an instruction.
+One main challenge that I faced when working on this project is to figure out the timing of the operations. This is because you have to break down each instruction into several states and multiple signals may have
+to be changed in each state. If you miss a signal in a state the instruction will not work and it may be difficult to debug if this happens.
 
 By the end of this project, I had greatly improved my knoweldge of logic gates, hardware design, as well as my Python coding skills. 
