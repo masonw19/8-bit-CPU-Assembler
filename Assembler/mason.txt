@@ -1,0 +1,6 @@
+mova 8 		# move an 8 into the A register
+sta 10		# store what is in the A register in to memory address 10
+mova 12		# move 12 into the A register	
+add 10		# add what is in memory address 10 with A register, output is stored in A register
+outa		# output what is in A register
+hlt		# stop process
