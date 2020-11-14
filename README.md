@@ -18,5 +18,18 @@ Once retrieving the machine code you can now open the 'CPU_8_bit.circ' file and 
 
 After loading the program into the 16 byte RAM you can turn off the 'program_mode' and set the 'pclk' to be in a low state. To run the program you can either manual toggle the 'clk' input or go to the 'Simulate' tab in Logisim-Evolution menu bar and check the 'Ticks Enabled' box.
 
+## Assembly Instructions
+
+#### Data transfer group
+| Instruction   | Description                                                |
+|---------------|------------------------------------------------------------|
+| `LDA M`       | Load the _A_ register with value in memory address _M_     |
+| `STA M`       | Store data in _A_ register to memory address _M_           |
+| `MOVA D`      | Move the data _D_ into _A_ register                        |
+
+Legend:
+* _D_ is a byte of data
+* _M_ is a memory address. Used to for either the source or destination of a data copy.
+
 ## Screenshots
-![Circuit showcase](Screenshots/8bitcpu.PNG)
+![8bitcpu showcase](Screenshots/8bitcpu.PNG)
