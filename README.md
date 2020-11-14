@@ -36,10 +36,10 @@ Legend:
 | `MOVA D`      | Move the data _D_ into _A_ register                        |
 
 #### Arithmetic group
-| Instruction   | Description                   |
-|---------------|-------------------------------|
-| `ADD M`       | _A_ = _A_ + (data in memory)	|
-| `SUB M`       | _A_ = _A_ - (data in memory)	|
+| Instruction   | Description                   		|
+|---------------|---------------------------------------|
+| `ADD M`       | _A_ = _A_ + (byte of data in memory)	|
+| `SUB M`       | _A_ = _A_ - (byte of data in memory)	|
 
 #### Logical group
 | Instruction   | Description                                                |
@@ -56,10 +56,12 @@ Legend:
 | `MOVA D`      | Move the data _D_ into _A_ register                        |
 
 #### Machine control
-| Instruction   | Description                                                |
-|---------------|------------------------------------------------------------|
-| `LDA M`       | Load the _A_ register with value in memory address _M_     |
-| `STA M`       | Store data in _A_ register to memory address _M_           |
-| `MOVA D`      | Move the data _D_ into _A_ register                        |
+| Instruction   | Description      |
+|---------------|------------------|
+| `HLT`       	| Halt the CPU     |
+
+#### I/O Group
+| `INA D`      	| Put the content _D_ on to the databus and input it to register _A_						| 
+| `OUTA`    	| Put the content in register _A_ on to the databus and receive it in the output register   |
 
 ## Reflection

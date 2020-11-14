@@ -83,6 +83,11 @@ for line in rf:
         data    = [0x30 | x]  
         
         writeFile(fileName, data)
+    elif tok[0].lower() == "ina":
+        x       = int(tok[1])
+        data    = [0x30 | x]  
+        
+        writeFile(fileName, data)
     elif tok[0].lower() == "jmp":
         x       = int(tok[1])
         data    = [0x40 | x]  
