@@ -11,6 +11,8 @@ This project contains:
 #### 8-bit CPU circuit
 Shown below is the 8-bit CPU circuit in Logisim-Evolution. Each of the modules in the image have been made with logic gates.
 
+The light green wires indicate that the signal is high, the dark green wires indicate that the signal is low, and the blue wires indicate that high impedance.
+
 ![8bitcpu showcase](Screenshots/8bitcpu.PNG)
 
 #### Controller Module
