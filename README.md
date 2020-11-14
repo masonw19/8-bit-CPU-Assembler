@@ -6,6 +6,9 @@ This project contains:
 * 16 bytes of RAM
 * Simple assembler
 
+## Screenshots
+![8bitcpu showcase](Screenshots/8bitcpu.PNG)
+
 ## Installation and Setup Instructions
 Clone this repository. You will need to have Java SE Development Kit installed in order to run Logisim-Evolution. Java SE Development Kit: https://www.oracle.com/java/technologies/javase-jdk13-downloads.html
 
@@ -20,6 +23,11 @@ After loading the program into the 16 byte RAM you can turn off the 'program_mod
 
 ## Assembly Instructions
 
+Legend:
+* _D_ is a byte of data
+* _A_ is a register that we have in our CPU
+* _M_ is a memory address. Used to for either the source or destination of a data copy.
+
 #### Data transfer group
 | Instruction   | Description                                                |
 |---------------|------------------------------------------------------------|
@@ -27,17 +35,11 @@ After loading the program into the 16 byte RAM you can turn off the 'program_mod
 | `STA M`       | Store data in _A_ register to memory address _M_           |
 | `MOVA D`      | Move the data _D_ into _A_ register                        |
 
-Legend:
-* _D_ is a byte of data
-* _A_ is a register that we have in our CPU
-* _M_ is a memory address. Used to for either the source or destination of a data copy.
-
 #### Arithmetic group
-| Instruction   | Description                                                |
-|---------------|------------------------------------------------------------|
-| `LDA M`       | Load the _A_ register with value in memory address _M_     |
-| `STA M`       | Store data in _A_ register to memory address _M_           |
-| `MOVA D`      | Move the data _D_ into _A_ register                        |
+| Instruction   | Description                   |
+|---------------|-------------------------------|
+| `ADD M`       | _A_ = _A_ + (data in memory)	|
+| `SUB M`       | _A_ = _A_ - (data in memory)	|
 
 #### Logical group
 | Instruction   | Description                                                |
@@ -59,8 +61,5 @@ Legend:
 | `LDA M`       | Load the _A_ register with value in memory address _M_     |
 | `STA M`       | Store data in _A_ register to memory address _M_           |
 | `MOVA D`      | Move the data _D_ into _A_ register                        |
-
-## Screenshots
-![8bitcpu showcase](Screenshots/8bitcpu.PNG)
 
 ## Reflection
